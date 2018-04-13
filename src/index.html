@@ -2,18 +2,20 @@
 <html>
     <head>
         <title>Test</title>
+        <script src="https://cdn.polyfill.io/v2/polyfill.js?feature=fetch"></script>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Users</h1>
         <table>
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-            </tr>
-            <tr>
-                <td>Value 1</td>
-                <td>Value 2</td>
-            </tr>
+            <thead>
+                <th></th>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </thead>
+            <tbody id="users">
+            </tbody>
         </table>
         <script src="bundle.js"></script>
     </body>
